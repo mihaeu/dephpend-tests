@@ -1,0 +1,23 @@
+{
+    "name": "mihaeu/dephpend-tests",
+    "description": "Test Framework for Architecture",
+    "type": "library",
+    "require": {
+        "php": "^7.0.0",
+        "phpunit/phpunit": "^6.5",
+        "dephpend/dephpend": "dev-develop"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mihaeu\\DephpendTests\\": ["src/"]
+        },
+        "classmap": ["src/ArchitectureTest.php"]
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Michael Haeuslmann",
+            "email": "haeuslmann@gmail.com"
+        }
+    ]
+}
